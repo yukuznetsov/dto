@@ -1,0 +1,71 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 64px;
+  left: 0;
+  /* width: 100%; */
+  background: #FFFFFF;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.03);
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #94979B;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  /* Sketch doesnt export pattern fills at this point */
+  /* font-family: Helvetica;
+  font-size: 16px;
+  color: #1B253A;
+  background: #1B253A; */
+}
+.searchBlock{
+  display: flex;
+  /* margin-left: 130px; */
+}
+.search{
+  width: 100%;
+  margin-left: 20px;
+  border: 0;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #94979B;
+}
+.search:focus{
+  outline: none;
+}
+.userData{
+  display: flex;
+  padding-left: 61px;
+}
+.userInfo{
+  position: absolute;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 40px;
+}
+.icon{
+  width: 22px;
+  height: 22px;
+  padding-left: 13px;
+}
+.userName{
+  vertical-align: center  ;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #1B253A;
+}
+.avatar{
+  padding-left: 13px;
+  width: 34px;
+}
+.arrow{
+  padding-left: 10px;
+}
+.navbarLogo{
+  width: 240px;
+}

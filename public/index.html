@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <style>
+      button:hover{
+        cursor: pointer;
+      }
+        @font-face {
+    			font-family: "Helvetica";
+    			src: url("./Helvetica/HelveticaRegular/HelveticaRegular.eot");
+    			src: url("./Helvetica/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+    			url("./Helvetica/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "Helvetica-Bold";
+    			src: url("./Helvetica/HelveticaBold/HelveticaBold.eot");
+    			src: url("./Helvetica/HelveticaBold/HelveticaBold.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaBold/HelveticaBold.woff") format("woff"),
+    			url("./Helvetica/HelveticaBold/HelveticaBold.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaItalic";
+    			src: url("./Helvetica/HelveticaItalic/HelveticaItalic.eot");
+    			src: url("./Helvetica/HelveticaItalic/HelveticaItalic.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaItalic/HelveticaItalic.woff") format("woff"),
+    			url("./Helvetica/HelveticaItalic/HelveticaItalic.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaLight";
+    			src: url("./Helvetica/HelveticaLight/HelveticaLight.eot");
+    			src: url("./Helvetica/HelveticaLight/HelveticaLight.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaLight/HelveticaLight.woff") format("woff"),
+    			url("./Helvetica/HelveticaLight/HelveticaLight.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaBlack";
+    			src: url("./Helvetica/HelveticaBlack/HelveticaBlack.eot");
+    			src: url("./Helvetica/HelveticaBlack/HelveticaBlack.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaBlack/HelveticaBlack.woff") format("woff"),
+    			url("./Helvetica/HelveticaBlack/HelveticaBlack.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaHeavy";
+    			src: url("./Helvetica/HelveticaHeavy/HelveticaHeavy.eot");
+    			src: url("./Helvetica/HelveticaHeavy/HelveticaHeavy.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaHeavy/HelveticaHeavy.woff") format("woff"),
+    			url("./Helvetica/HelveticaHeavy/HelveticaHeavy.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaMedium";
+    			src: url("./Helvetica/HelveticaMedium/HelveticaMedium.eot");
+    			src: url("./Helvetica/HelveticaMedium/HelveticaMedium.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaMedium/HelveticaMedium.woff") format("woff"),
+    			url("./Helvetica/HelveticaMedium/HelveticaMedium.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaThin";
+    			src: url("./Helvetica/HelveticaThin/HelveticaThin.eot");
+    			src: url("./Helvetica/HelveticaThin/HelveticaThin.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaThin/HelveticaThin.woff") format("woff"),
+    			url("./Helvetica/HelveticaThin/HelveticaThin.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaUltraLight";
+    			src: url("./Helvetica/HelveticaUltraLight/HelveticaUltraLight.eot");
+    			src: url("./Helvetica/HelveticaUltraLight/HelveticaUltraLight.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaUltraLight/HelveticaUltraLight.woff") format("woff"),
+    			url("./Helvetica/HelveticaUltraLight/HelveticaUltraLight.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaBoldItalic";
+    			src: url("./Helvetica/HelveticaBoldItalic/HelveticaBoldItalic.eot");
+    			src: url("./Helvetica/HelveticaBoldItalic/HelveticaBoldItalic.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaBoldItalic/HelveticaBoldItalic.woff") format("woff"),
+    			url("./Helvetica/HelveticaBoldItalic/HelveticaBoldItalic.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaBlackItalic";
+    			src: url("./Helvetica/HelveticaBlackItalic/HelveticaBlackItalic.eot");
+    			src: url("./Helvetica/HelveticaBlackItalic/HelveticaBlackItalic.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaBlackItalic/HelveticaBlackItalic.woff") format("woff"),
+    			url("./Helvetica/HelveticaBlackItalic/HelveticaBlackItalic.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaLightItalic";
+    			src: url("./Helvetica/HelveticaLightItalic/HelveticaLightItalic.eot");
+    			src: url("./Helvetica/HelveticaLightItalic/HelveticaLightItalic.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaLightItalic/HelveticaLightItalic.woff") format("woff"),
+    			url("./Helvetica/HelveticaLightItalic/HelveticaLightItalic.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaMediumItalic";
+    			src: url("./Helvetica/HelveticaMediumItalic/HelveticaMediumItalic.eot");
+    			src: url("./Helvetica/HelveticaMediumItalic/HelveticaMediumItalic.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaMediumItalic/HelveticaMediumItalic.woff") format("woff"),
+    			url("./Helvetica/HelveticaMediumItalic/HelveticaMediumItalic.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaHeavyItalic";
+    			src: url("./Helvetica/HelveticaHeavyItalic/HelveticaHeavyItalic.eot");
+    			src: url("./Helvetica/HelveticaHeavyItalic/HelveticaHeavyItalic.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaHeavyItalic/HelveticaHeavyItalic.woff") format("woff"),
+    			url("./Helvetica/HelveticaHeavyItalic/HelveticaHeavyItalic.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaThinItalic";
+    			src: url("./Helvetica/HelveticaThinItalic/HelveticaThinItalic.eot");
+    			src: url("./Helvetica/HelveticaThinItalic/HelveticaThinItalic.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaThinItalic/HelveticaThinItalic.woff") format("woff"),
+    			url("./Helvetica/HelveticaThinItalic/HelveticaThinItalic.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+
+    	@font-face {
+    			font-family: "HelveticaUltraLightItalic";
+    			src: url("./Helvetica/HelveticaUltraLightItalic/HelveticaUltraLightItalic.eot");
+    			src: url("./Helvetica/HelveticaUltraLightItalic/HelveticaUltraLightItalic.eot?#iefix")format("embedded-opentype"),
+    			url("./Helvetica/HelveticaUltraLightItalic/HelveticaUltraLightItalic.woff") format("woff"),
+    			url("./Helvetica/HelveticaUltraLightItalic/HelveticaUltraLightItalic.ttf") format("truetype");
+    			font-style: normal;
+    			font-weight: normal;
+    	}
+      body{
+        background-color: #f5f7fa;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

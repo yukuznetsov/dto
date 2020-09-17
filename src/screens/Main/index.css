@@ -1,0 +1,40 @@
+.container{
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 94px;
+}
+.title{
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #1B253A;
+  letter-spacing: 0.7px;
+}
+.infoBlock{
+  width: 100%;
+  /* max-width: 920px; */
+  margin-top: 29px;
+  background: #FFFFFF;
+  box-shadow: 0 0 5px 0 rgba(232,232,232,0.53);
+}
+.currentSearch{
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #1B253A;
+  letter-spacing: 0.7px;
+  padding-left: 20px;
+  padding-top: 32px;
+}
+.mainPage{
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; */
+}
+.filterContainer{
+  position: relative;
+  width: 500px;
+}
+.mainPageData{
+  width: 100%;
+}

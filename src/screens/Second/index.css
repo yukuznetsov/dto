@@ -1,0 +1,55 @@
+.gridList {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  grid-row-gap: 0px;
+}
+.btn-group{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+.btn{
+  height: 44px;
+  padding: 0;
+  border: none;
+  background: #3A84FF;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.tripDetail{
+  position: absolute;
+  z-index: 100000;
+  width: 220px;
+  height: 130px;
+  background: #FFFFFF;
+  /* box-shadow: 0 0 5px 0 rgba(232,232,232,0.53); */
+  left: 67px;
+  top: 46px;
+}
+.tripContainer{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.tripTitle{
+  font-family: Helvetica-Bold;
+  font-size: 10px;
+  color: #1B253A;
+  letter-spacing: 0.44px;
+}
+.routeData{
+  margin-left: -14px;
+  margin-top: -10px;
+}
+.secondPage{
+  display: flex;
+}

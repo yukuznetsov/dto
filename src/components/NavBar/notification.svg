@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>baseline-search-24px copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="scr_1" transform="translate(-1136.000000, -19.000000)">
+            <g id="baseline-search-24px-copy" transform="translate(1136.000000, 21.000000)">
+                <polygon id="Shape" points="0 0 22 0 22 22 0 22"></polygon>
+                <path d="M11,18.7 C11.9075,18.7 12.65,17.9384615 12.65,17.0076923 L9.35,17.0076923 C9.35,17.9384615 10.08425,18.7 11,18.7 Z M15.95,13.6230769 L15.95,9.39230769 C15.95,6.79461538 14.597,4.62 12.2375,4.04461538 L12.2375,3.46923077 C12.2375,2.76692308 11.68475,2.2 11,2.2 C10.31525,2.2 9.7625,2.76692308 9.7625,3.46923077 L9.7625,4.04461538 C7.39475,4.62 6.05,6.78615385 6.05,9.39230769 L6.05,13.6230769 L4.4,15.3153846 L4.4,16.1615385 L17.6,16.1615385 L17.6,15.3153846 L15.95,13.6230769 Z" id="Shape" fill="#94979B" fill-rule="nonzero"></path>
+                <circle id="Oval-2" stroke="#FFFFFF" stroke-width="2" fill="#E11212" cx="18" cy="4" r="5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

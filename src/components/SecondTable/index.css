@@ -1,0 +1,20 @@
+.detailTitle{
+  display: flex;
+}
+.detailTitleText{
+  padding-top: 4px;
+  margin-left: 14px;
+  opacity: 0.5;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #52575A;
+  margin-top: 0.5em;
+}
+.detailValue{
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #52575A;
+  line-height: 0;
+  margin-top: 0.5em;
+  /* padding-top: -14px; */
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Triangle 1</title>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5" stroke-linecap="round" stroke-linejoin="round">
+        <g id="1" transform="translate(-1367.000000, -297.000000)" fill="#313131" stroke="#313131">
+            <g id="Group-4" transform="translate(1070.000000, 82.000000)">
+                <g id="Group" transform="translate(20.000000, 174.000000)">
+                    <g id="user-tag-copy" transform="translate(0.000000, 22.000000)">
+                        <polygon id="Triangle-1" transform="translate(281.000000, 21.636364) rotate(-180.000000) translate(-281.000000, -21.636364) " points="281 20 284 23.2727273 278 23.2727273"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

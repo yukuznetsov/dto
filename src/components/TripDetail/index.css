@@ -1,0 +1,33 @@
+.detailTitle{
+  display: flex;
+}
+.detailTitleText{
+  padding-top: 4px;
+  margin-left: 10px;
+  opacity: 0.5;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #52575A;
+  margin-top: 0.5em;
+}
+.detailValue{
+  font-family: Helvetica;
+  font-size: 10px;
+  color: #52575A;
+  line-height: 0;
+  margin-top: 0.5em;
+  /* padding-top: -14px; */
+}
+
+.btn-block{
+  max-width: 16.563rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.25rem;
+}
+
+
+.custom-style{
+  width: 5rem;
+}

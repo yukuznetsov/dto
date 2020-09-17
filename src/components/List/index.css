@@ -1,0 +1,49 @@
+.list{
+  background: #FFFFFF;
+  box-shadow: 0 0 5px 0 rgba(232,232,232,0.53);
+  padding-left: 31px;
+  padding-bottom: 30px;
+}
+.listTitle{
+  padding-top: 24px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #1B253A;
+}
+.listView{
+  margin-top: 29px;
+}
+.listTable{
+  width: 100%;
+  padding-right: 36px;
+}
+.listTableTitle{
+  font-family: Helvetica-Bold;
+  font-size: 12px;
+  color: #1B253A;
+  letter-spacing: 0.44px;
+  margin: 0.8em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.listTableValue{
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #52575A;
+  text-align: right;
+  margin: 0.8em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+.link{
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #3A84FF;
+  text-align: right;
+  margin: 0.8em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+}

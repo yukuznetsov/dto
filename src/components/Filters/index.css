@@ -1,0 +1,122 @@
+.filters{
+  position: fixed;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 340px;
+  top: 122px;
+  bottom: 0px;
+  right: 30px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.06);
+}
+.containerFilter{
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.closeFilters{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.closeFilters:hover{
+  cursor: pointer;
+}
+.secondaryFilter{
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #94979B;
+}
+.filterView{
+  display: flex;
+  
+  /* margin-top: 30px; */
+}
+.filterTitle{
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #1B253A;
+}
+.arrowFilter{
+  padding-left: 130px;
+  /* padding-right: 20px; */
+  /* margin-left: 142px; */
+}
+.arrowFilter:hover{
+  cursor: pointer;
+}
+.green-btn{
+  padding: 0;
+  border: none;
+  width: 300px;
+  height: 44px;
+  background: #377F4F;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.green-btn:focus{
+  padding: 0;
+  border: none;
+}
+.blue-btn{
+  padding: 0;
+  border: none;
+  width: 300px;
+  height: 44px;
+  background: #3A84FF;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.blue-btn:focus{
+  padding: 0;
+  border: none;
+}
+.grey-btn{
+  padding: 0;
+  border: none;
+  width: 300px;
+  height: 44px;
+  background: #52575A;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.grey-btn:focus{
+  padding: 0;
+  border: none;
+}
+.separator{
+  margin-top: 20px;
+  margin-left: -20px;
+  width: 340px;
+  opacity: 0.2;
+}
+.reset{
+  margin-top: 8px;
+  padding: 0;
+  border: none;
+  width: 300px;
+  height: 44px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #313131;
+  text-align: center;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}

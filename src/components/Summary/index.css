@@ -1,0 +1,11 @@
+.summary{
+  display: flex;
+}
+.summaryTitle{
+  margin-top: 42px;
+  margin-left: 25px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #1B253A;
+  letter-spacing: 0.7px;
+}

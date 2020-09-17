@@ -1,0 +1,52 @@
+.modal {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  z-index: 10000000000;
+}
+.modal_inner {
+  position: relative;
+  min-width: 402px;
+  /* padding: 1.5rem;s */
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s;
+}
+.modal.-open {
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal.-open .modal_inner {
+  opacity: 1;
+  transform: scale(1);
+}
+.modalText{
+  padding-left: 57px;
+  padding-right: 57px;
+  padding-top: 34px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  line-height: 24px;
+}
+.closeIcon{
+  position: absolute;
+  top: 18px;
+  right: 17px;
+}
+.btnCloseModal{
+  margin-bottom: 32px;
+  width: 119px;
+}
