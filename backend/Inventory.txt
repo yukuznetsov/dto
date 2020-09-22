@@ -1,0 +1,43 @@
+
+Folders:
+
+E-Table_Examples: examples of the two basic spreadsheets with data related to June, 30, Houston.
+E-Tables: two main spreadsheets and Visual Basic scripts used for macros.
+MySqlScripts: MySql scripts for creating, uploading tables and a few Stored Procedures designed to manipulate the data. Unfinished, first attempt.
+MySqlTables: MySql tables.
+PerlScripts: perl scripts used.
+ShellScripts: bash scripts used.
+
+
+Main Algorithm.
+Given Backhaul and Truckstop requests, we solve Assignment problem for the first step.
+Next, we discard matchings obtained and solve the Assignment problem again.
+A few steps like this may be performed.
+Eventualy, a few (2-5) matchings result.
+
+
+Inventory.
+1. MySql local database was intended to convert data from input tables to the RAST input files and convert the RAST output to Report, AirTable frontend, etc.
+It was not finished due to lack of time. LibreOffice e-tables was used instead.
+2. There are two main LibreOffice spreadsheets: 
+  spread_input_empty.xlsx
+  universal_out_empty.xlsx
+The first one transforms Backhaul and Truckstop tables to the RAST input files, namely, csv-task and config file.
+The second one transforms the RAST output files, namely, 5 XML schedules to csv-output, AirTable frontend or a simple report.
+3. Perl scripts are used to process output RAST data.
+4. proc_assign.sh shell scripts manages the Main Algorithm at local server. Other shell scripts are simple tools to merge/clear csv-data.
+5. An Example of data processing is given in Table_Examples folder.
+
+LibreOffice Spredsheets Workflow.
+1. Obtain Truckstop and Backhaul tables. Correct data, if any.
+2. Insert these into spread_input_empty.xlsx using the same name sheets. Recalculate it.
+3. Save all its sheets as ';'-separated csv files with VB script.
+4. Clean the data and merge into RAST task and config files.
+5. Solve the problem with proc_assign.sh shell script.
+6. Given Truckstops, Backhaules and five Routes tables, populate universal_out_empty.xlsx spreadsheet. Recalculate it.
+7. Save all its sheets as ';'-separated csv files with VB script.
+8. Clean the data and compile csv-output files with simple shell scripts.
+
+
+
+
