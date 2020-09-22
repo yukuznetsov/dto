@@ -1,0 +1,1831 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<solution version="1.0" type="gvrp" >
+  <route vehicle="veh-25637994" dist="116988" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="13:15:54" />
+      <departs time="09:00" />
+      <rte dist="30998" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25637994" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25637994" >
+      <arrives time="09:25:25" />
+      <departs time="09:55:25" />
+      <rte dist="27842" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-296" >
+      <arrives time="10:09:52" />
+      <departs time="11:09:52" />
+      <rte dist="11693" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-296" >
+      <arrives time="11:45:38" />
+      <departs time="12:45:38" />
+      <rte dist="46455" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25673385" dist="826437" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:08:27" />
+      <departs time="09:00" />
+      <rte dist="412467" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25673385" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25673385" >
+      <arrives time="14:21:27" />
+      <departs time="14:51:27" />
+      <rte dist="413970" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675931" dist="131438" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="13:14:19" />
+      <departs time="09:00" />
+      <rte dist="49339" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675931" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675931" >
+      <arrives time="09:18:47" />
+      <departs time="09:48:47" />
+      <rte dist="16602" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-256" >
+      <arrives time="09:58:04" />
+      <departs time="10:58:04" />
+      <rte dist="6535" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-256" >
+      <arrives time="11:35:15" />
+      <departs time="12:35:15" />
+      <rte dist="58962" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675946" dist="734937" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:06:19" />
+      <departs time="09:00" />
+      <rte dist="260259" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675946" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675946" >
+      <arrives time="12:38:05" />
+      <departs time="13:08:05" />
+      <rte dist="331050" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-165" >
+      <arrives time="13:16:52" />
+      <departs time="14:16:52" />
+      <rte dist="7016" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-165" >
+      <arrives time="15:58:21" />
+      <departs time="16:58:21" />
+      <rte dist="136612" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675948" dist="606244" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="19:58:52" />
+      <departs time="09:00" />
+      <rte dist="30998" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675948" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675948" >
+      <arrives time="13:15:56" />
+      <departs time="13:45:56" />
+      <rte dist="271248" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-98" >
+      <arrives time="17:07:42" />
+      <departs time="18:07:42" />
+      <rte dist="272775" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-98" >
+      <arrives time="18:28:36" />
+      <departs time="19:28:36" />
+      <rte dist="31223" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675959" dist="707940" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="18:47:31" />
+      <departs time="09:00" />
+      <rte dist="353776" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675959" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675959" >
+      <arrives time="13:34:13" />
+      <departs time="14:04:13" />
+      <rte dist="354164" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675960" dist="707940" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="18:47:31" />
+      <departs time="09:00" />
+      <rte dist="353776" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675960" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675960" >
+      <arrives time="13:34:13" />
+      <departs time="14:04:13" />
+      <rte dist="354164" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675961" dist="865974" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:46:03" />
+      <departs time="09:00" />
+      <rte dist="432835" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675961" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675961" >
+      <arrives time="14:37:44" />
+      <departs time="15:07:44" />
+      <rte dist="433139" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675963" dist="439649" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="15:37:31" />
+      <departs time="09:00" />
+      <rte dist="219572" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675963" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675963" >
+      <arrives time="11:59:10" />
+      <departs time="12:29:10" />
+      <rte dist="220077" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675965" dist="813720" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="21:00:03" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675965" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675965" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-105" >
+      <arrives time="14:22:14" />
+      <departs time="15:22:14" />
+      <rte dist="22581" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-105" >
+      <arrives time="19:40:48" />
+      <departs time="20:40:48" />
+      <rte dist="378893" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675966" dist="707940" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="18:47:31" />
+      <departs time="09:00" />
+      <rte dist="353776" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675966" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675966" >
+      <arrives time="13:34:13" />
+      <departs time="14:04:13" />
+      <rte dist="354164" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675967" dist="275097" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="14:59:50" />
+      <departs time="09:00" />
+      <rte dist="120255" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675967" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675967" >
+      <arrives time="09:18:28" />
+      <departs time="09:48:28" />
+      <rte dist="16753" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-253" >
+      <arrives time="10:13:54" />
+      <departs time="11:13:54" />
+      <rte dist="24382" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-253" >
+      <arrives time="12:34:19" />
+      <departs time="13:34:19" />
+      <rte dist="113707" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675968" dist="439649" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="15:37:31" />
+      <departs time="09:00" />
+      <rte dist="219572" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675968" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675968" >
+      <arrives time="11:59:10" />
+      <departs time="12:29:10" />
+      <rte dist="220077" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675969" dist="803603" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:25:34" />
+      <departs time="09:00" />
+      <rte dist="396334" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675969" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675969" >
+      <arrives time="14:37:59" />
+      <departs time="15:07:59" />
+      <rte dist="407269" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675970" dist="794361" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="21:04:07" />
+      <departs time="09:00" />
+      <rte dist="260259" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675970" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675970" >
+      <arrives time="11:54:57" />
+      <departs time="12:24:57" />
+      <rte dist="258245" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-313" >
+      <arrives time="14:14:40" />
+      <departs time="15:14:40" />
+      <rte dist="139245" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-313" >
+      <arrives time="16:56:09" />
+      <departs time="17:56:09" />
+      <rte dist="136612" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675972" dist="804886" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:50:12" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675972" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675972" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-11" >
+      <arrives time="14:10:33" />
+      <departs time="15:10:33" />
+      <rte dist="6759" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-11" >
+      <arrives time="19:30:57" />
+      <departs time="20:30:57" />
+      <rte dist="385881" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675973" dist="517010" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="17:32:52" />
+      <departs time="09:00" />
+      <rte dist="49339" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675973" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675973" >
+      <arrives time="11:23:12" />
+      <departs time="11:53:12" />
+      <rte dist="210852" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-94" >
+      <arrives time="14:16:37" />
+      <departs time="15:16:37" />
+      <rte dist="197857" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-94" >
+      <arrives time="15:53:48" />
+      <departs time="16:53:48" />
+      <rte dist="58962" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675974" dist="682758" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:53" />
+      <departs time="09:00" />
+      <rte dist="72689" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675974" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675974" >
+      <arrives time="13:15:56" />
+      <departs time="13:45:56" />
+      <rte dist="271248" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-96" >
+      <arrives time="17:07:42" />
+      <departs time="18:07:42" />
+      <rte dist="272775" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-96" >
+      <arrives time="18:56:54" />
+      <departs time="19:56:54" />
+      <rte dist="66046" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675975" dist="803603" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:25:34" />
+      <departs time="09:00" />
+      <rte dist="396334" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675975" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675975" >
+      <arrives time="14:37:59" />
+      <departs time="15:07:59" />
+      <rte dist="407269" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675976" dist="257099" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="14:44" />
+      <departs time="09:00" />
+      <rte dist="120255" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675976" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675976" >
+      <arrives time="09:18:47" />
+      <departs time="09:48:47" />
+      <rte dist="16602" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-345" >
+      <arrives time="09:58:04" />
+      <departs time="10:58:04" />
+      <rte dist="6535" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-345" >
+      <arrives time="12:18:29" />
+      <departs time="13:18:29" />
+      <rte dist="113707" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675977" dist="61263" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="12:36:45" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675977" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675977" >
+      <arrives time="09:18:28" />
+      <departs time="09:48:28" />
+      <rte dist="16753" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-295" >
+      <arrives time="09:55:57" />
+      <departs time="10:55:57" />
+      <rte dist="6415" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-295" >
+      <arrives time="11:17:30" />
+      <departs time="12:17:30" />
+      <rte dist="25343" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675979" dist="164531" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="13:50:44" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675979" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675979" >
+      <arrives time="09:40:55" />
+      <departs time="10:10:55" />
+      <rte dist="55266" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-290" >
+      <arrives time="11:03:41" />
+      <departs time="12:03:41" />
+      <rte dist="63577" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-290" >
+      <arrives time="12:31:29" />
+      <departs time="13:31:29" />
+      <rte dist="32936" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675982" dist="776417" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:42:40" />
+      <departs time="09:00" />
+      <rte dist="27092" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675982" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675982" >
+      <arrives time="11:54:57" />
+      <departs time="12:24:57" />
+      <rte dist="258245" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-174" >
+      <arrives time="14:14:40" />
+      <departs time="15:14:40" />
+      <rte dist="139245" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-174" >
+      <arrives time="19:12:30" />
+      <departs time="20:12:30" />
+      <rte dist="351835" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675984" dist="803603" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:25:34" />
+      <departs time="09:00" />
+      <rte dist="396334" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675984" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675984" >
+      <arrives time="14:37:59" />
+      <departs time="15:07:59" />
+      <rte dist="407269" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675985" dist="684912" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:39" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675985" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675985" >
+      <arrives time="11:59:10" />
+      <departs time="12:29:10" />
+      <rte dist="220077" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-37" >
+      <arrives time="16:18:06" />
+      <departs time="17:18:06" />
+      <rte dist="296546" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-37" >
+      <arrives time="19:19:45" />
+      <departs time="20:19:45" />
+      <rte dist="155537" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675986" dist="119125" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="13:34:41" />
+      <departs time="09:00" />
+      <rte dist="41195" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675986" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675986" >
+      <arrives time="09:18:28" />
+      <departs time="09:48:28" />
+      <rte dist="16753" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-250" >
+      <arrives time="10:13:54" />
+      <departs time="11:13:54" />
+      <rte dist="24382" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-250" >
+      <arrives time="11:51:53" />
+      <departs time="12:51:53" />
+      <rte dist="36795" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675987" dist="239868" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="12:07:28" />
+      <departs time="09:00" />
+      <rte dist="119379" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675987" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675987" >
+      <arrives time="10:16:25" />
+      <departs time="10:46:25" />
+      <rte dist="120489" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675988" dist="258393" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="14:59:19" />
+      <departs time="09:00" />
+      <rte dist="72689" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675988" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675988" >
+      <arrives time="09:56:55" />
+      <departs time="10:26:55" />
+      <rte dist="66676" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-262" >
+      <arrives time="11:14:01" />
+      <departs time="12:14:01" />
+      <rte dist="52982" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-262" >
+      <arrives time="13:03:13" />
+      <departs time="14:03:13" />
+      <rte dist="66046" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675991" dist="96863" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="13:05:09" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675991" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675991" >
+      <arrives time="09:18:47" />
+      <departs time="09:48:47" />
+      <rte dist="16602" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-146" >
+      <arrives time="10:18:06" />
+      <departs time="11:18:06" />
+      <rte dist="34573" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-146" >
+      <arrives time="11:45:54" />
+      <departs time="12:45:54" />
+      <rte dist="32936" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675993" dist="507900" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="17:47:57" />
+      <departs time="09:00" />
+      <rte dist="227708" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675993" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675993" >
+      <arrives time="09:18:28" />
+      <departs time="09:48:28" />
+      <rte dist="16753" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-261" >
+      <arrives time="10:13:54" />
+      <departs time="11:13:54" />
+      <rte dist="24382" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-261" >
+      <arrives time="14:11:32" />
+      <departs time="15:11:32" />
+      <rte dist="239057" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675994" dist="813720" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="21:00:03" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675994" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675994" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-17" >
+      <arrives time="14:22:14" />
+      <departs time="15:22:14" />
+      <rte dist="22581" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-17" >
+      <arrives time="19:40:48" />
+      <departs time="20:40:48" />
+      <rte dist="378893" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25675995" dist="804886" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:50:12" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25675995" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25675995" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-224" >
+      <arrives time="14:10:33" />
+      <departs time="15:10:33" />
+      <rte dist="6759" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-224" >
+      <arrives time="19:30:57" />
+      <departs time="20:30:57" />
+      <rte dist="385881" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676000" dist="715067" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:10:06" />
+      <departs time="09:00" />
+      <rte dist="57434" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676000" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676000" >
+      <arrives time="12:38:05" />
+      <departs time="13:08:05" />
+      <rte dist="331050" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-368" >
+      <arrives time="13:16:52" />
+      <departs time="14:16:52" />
+      <rte dist="7016" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-368" >
+      <arrives time="18:15:14" />
+      <departs time="19:15:14" />
+      <rte dist="319567" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676001" dist="710359" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="19:52:42" />
+      <departs time="09:00" />
+      <rte dist="328544" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676001" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676001" >
+      <arrives time="09:35:57" />
+      <departs time="10:05:57" />
+      <rte dist="36408" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-347" >
+      <arrives time="10:36:37" />
+      <departs time="11:36:37" />
+      <rte dist="26989" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-347" >
+      <arrives time="15:14:02" />
+      <departs time="16:14:02" />
+      <rte dist="318418" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676002" dist="804886" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:50:12" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676002" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676002" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-10" >
+      <arrives time="14:10:33" />
+      <departs time="15:10:33" />
+      <rte dist="6759" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-10" >
+      <arrives time="19:30:57" />
+      <departs time="20:30:57" />
+      <rte dist="385881" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676003" dist="804886" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:50:12" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676003" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676003" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-59" >
+      <arrives time="14:10:33" />
+      <departs time="15:10:33" />
+      <rte dist="6759" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-59" >
+      <arrives time="19:30:57" />
+      <departs time="20:30:57" />
+      <rte dist="385881" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676004" dist="804886" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:50:12" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676004" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676004" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-7" >
+      <arrives time="14:10:33" />
+      <departs time="15:10:33" />
+      <rte dist="6759" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-7" >
+      <arrives time="19:30:57" />
+      <departs time="20:30:57" />
+      <rte dist="385881" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676005" dist="257099" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="14:44" />
+      <departs time="09:00" />
+      <rte dist="120255" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676005" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676005" >
+      <arrives time="09:18:47" />
+      <departs time="09:48:47" />
+      <rte dist="16602" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-92" >
+      <arrives time="09:58:04" />
+      <departs time="10:58:04" />
+      <rte dist="6535" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-92" >
+      <arrives time="12:18:29" />
+      <departs time="13:18:29" />
+      <rte dist="113707" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676006" dist="507900" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="17:47:57" />
+      <departs time="09:00" />
+      <rte dist="227708" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676006" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676006" >
+      <arrives time="09:18:28" />
+      <departs time="09:48:28" />
+      <rte dist="16753" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-95" >
+      <arrives time="10:13:54" />
+      <departs time="11:13:54" />
+      <rte dist="24382" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-95" >
+      <arrives time="14:11:32" />
+      <departs time="15:11:32" />
+      <rte dist="239057" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676007" dist="804886" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:50:12" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676007" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676007" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-49" >
+      <arrives time="14:10:33" />
+      <departs time="15:10:33" />
+      <rte dist="6759" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-49" >
+      <arrives time="19:30:57" />
+      <departs time="20:30:57" />
+      <rte dist="385881" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676008" dist="781969" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:42:02" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676008" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676008" >
+      <arrives time="10:16:25" />
+      <departs time="10:46:25" />
+      <rte dist="120489" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-22" >
+      <arrives time="14:28:51" />
+      <departs time="15:28:51" />
+      <rte dist="339209" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-22" >
+      <arrives time="19:22:47" />
+      <departs time="20:22:47" />
+      <rte dist="309519" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676011" dist="707940" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="18:47:31" />
+      <departs time="09:00" />
+      <rte dist="353776" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676011" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676011" >
+      <arrives time="13:34:13" />
+      <departs time="14:04:13" />
+      <rte dist="354164" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676015" dist="804886" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:50:12" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676015" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676015" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-56" >
+      <arrives time="14:10:33" />
+      <departs time="15:10:33" />
+      <rte dist="6759" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-56" >
+      <arrives time="19:30:57" />
+      <departs time="20:30:57" />
+      <rte dist="385881" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676016" dist="804886" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:50:12" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676016" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676016" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-9" >
+      <arrives time="14:10:33" />
+      <departs time="15:10:33" />
+      <rte dist="6759" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-9" >
+      <arrives time="19:30:57" />
+      <departs time="20:30:57" />
+      <rte dist="385881" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676017" dist="724817" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:48:42" />
+      <departs time="09:00" />
+      <rte dist="57434" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676017" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676017" >
+      <arrives time="09:56:55" />
+      <departs time="10:26:55" />
+      <rte dist="66676" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-164" >
+      <arrives time="13:55:28" />
+      <departs time="14:55:28" />
+      <rte dist="281140" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-164" >
+      <arrives time="18:53:50" />
+      <departs time="19:53:50" />
+      <rte dist="319567" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676018" dist="715067" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:10:06" />
+      <departs time="09:00" />
+      <rte dist="57434" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676018" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676018" >
+      <arrives time="12:38:05" />
+      <departs time="13:08:05" />
+      <rte dist="331050" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-308" >
+      <arrives time="13:16:52" />
+      <departs time="14:16:52" />
+      <rte dist="7016" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-308" >
+      <arrives time="18:15:14" />
+      <departs time="19:15:14" />
+      <rte dist="319567" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676019" dist="789799" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:53:12" />
+      <departs time="09:00" />
+      <rte dist="377132" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676019" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676019" >
+      <arrives time="09:18:28" />
+      <departs time="09:48:28" />
+      <rte dist="16753" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-258" >
+      <arrives time="10:13:54" />
+      <departs time="11:13:54" />
+      <rte dist="24382" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-258" >
+      <arrives time="15:29:07" />
+      <departs time="16:29:07" />
+      <rte dist="371532" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676020" dist="756722" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:41:30" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676020" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676020" >
+      <arrives time="09:40:55" />
+      <departs time="10:10:55" />
+      <rte dist="55266" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-302" >
+      <arrives time="14:53:13" />
+      <departs time="15:53:13" />
+      <rte dist="369686" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-302" >
+      <arrives time="19:22:15" />
+      <departs time="20:22:15" />
+      <rte dist="319018" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676022" dist="804886" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:50:12" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676022" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676022" >
+      <arrives time="13:32:27" />
+      <departs time="14:02:27" />
+      <rte dist="399494" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-5" >
+      <arrives time="14:10:33" />
+      <departs time="15:10:33" />
+      <rte dist="6759" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-5" >
+      <arrives time="19:30:57" />
+      <departs time="20:30:57" />
+      <rte dist="385881" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676023" dist="758691" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:31:09" />
+      <departs time="09:00" />
+      <rte dist="72689" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676023" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676023" >
+      <arrives time="12:38:05" />
+      <departs time="13:08:05" />
+      <rte dist="331050" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-303" >
+      <arrives time="13:16:52" />
+      <departs time="14:16:52" />
+      <rte dist="7016" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-303" >
+      <arrives time="18:35:03" />
+      <departs time="19:35:03" />
+      <rte dist="347936" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676025" dist="737373" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:15:07" />
+      <departs time="09:00" />
+      <rte dist="27092" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676025" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676025" >
+      <arrives time="09:18:28" />
+      <departs time="09:48:28" />
+      <rte dist="16753" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-320" >
+      <arrives time="13:47:07" />
+      <departs time="14:47:07" />
+      <rte dist="341693" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-320" >
+      <arrives time="18:44:57" />
+      <departs time="19:44:57" />
+      <rte dist="351835" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676026" dist="722481" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:39:04" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676026" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676026" >
+      <arrives time="11:54:57" />
+      <departs time="12:24:57" />
+      <rte dist="258245" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-32" >
+      <arrives time="14:53:01" />
+      <departs time="15:53:01" />
+      <rte dist="160919" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-32" >
+      <arrives time="19:19:49" />
+      <departs time="20:19:49" />
+      <rte dist="290565" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676029" dist="614864" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="19:32:13" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676029" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676029" >
+      <arrives time="09:35:57" />
+      <departs time="10:05:57" />
+      <rte dist="36408" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-181" >
+      <arrives time="13:46:10" />
+      <departs time="14:46:10" />
+      <rte dist="275139" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-181" >
+      <arrives time="18:12:58" />
+      <departs time="19:12:58" />
+      <rte dist="290565" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676030" dist="684912" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:39" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676030" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676030" >
+      <arrives time="11:59:10" />
+      <departs time="12:29:10" />
+      <rte dist="220077" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-204" >
+      <arrives time="16:18:06" />
+      <departs time="17:18:06" />
+      <rte dist="296546" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-204" >
+      <arrives time="19:19:45" />
+      <departs time="20:19:45" />
+      <rte dist="155537" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676033" dist="101127" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="13:18:51" />
+      <departs time="09:00" />
+      <rte dist="41195" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676033" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676033" >
+      <arrives time="09:18:47" />
+      <departs time="09:48:47" />
+      <rte dist="16602" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-101" >
+      <arrives time="09:58:04" />
+      <departs time="10:58:04" />
+      <rte dist="6535" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-101" >
+      <arrives time="11:36:03" />
+      <departs time="12:36:03" />
+      <rte dist="36795" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676034" dist="785720" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:45:05" />
+      <departs time="09:00" />
+      <rte dist="49339" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676034" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676034" >
+      <arrives time="13:15:46" />
+      <departs time="13:45:46" />
+      <rte dist="344762" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-348" >
+      <arrives time="17:28:50" />
+      <departs time="18:28:50" />
+      <rte dist="332657" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-348" >
+      <arrives time="19:06:01" />
+      <departs time="20:06:01" />
+      <rte dist="58962" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676035" dist="337213" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="13:32:04" />
+      <departs time="09:00" />
+      <rte dist="168117" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676035" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676035" >
+      <arrives time="10:53:45" />
+      <departs time="11:23:45" />
+      <rte dist="169096" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676036" dist="666739" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:25:10" />
+      <departs time="09:00" />
+      <rte dist="277704" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676036" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676036" >
+      <arrives time="09:56:55" />
+      <departs time="10:26:55" />
+      <rte dist="66676" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-93" >
+      <arrives time="11:14:01" />
+      <departs time="12:14:01" />
+      <rte dist="52982" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-93" >
+      <arrives time="15:43:31" />
+      <departs time="16:43:31" />
+      <rte dist="269377" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676037" dist="781969" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="20:42:02" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676037" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676037" >
+      <arrives time="10:16:25" />
+      <departs time="10:46:25" />
+      <rte dist="120489" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-23" >
+      <arrives time="14:28:51" />
+      <departs time="15:28:51" />
+      <rte dist="339209" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-23" >
+      <arrives time="19:22:47" />
+      <departs time="20:22:47" />
+      <rte dist="309519" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676039" dist="618987" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="18:26:38" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676039" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676039" >
+      <arrives time="09:54:41" />
+      <departs time="10:24:41" />
+      <rte dist="73360" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-211" >
+      <arrives time="12:55:26" />
+      <departs time="13:55:26" />
+      <rte dist="231631" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-211" >
+      <arrives time="17:07:23" />
+      <departs time="18:07:23" />
+      <rte dist="301244" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676040" dist="618987" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="18:26:38" />
+      <departs time="09:00" />
+      <rte dist="12752" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676040" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676040" >
+      <arrives time="09:54:41" />
+      <departs time="10:24:41" />
+      <rte dist="73360" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-45" >
+      <arrives time="12:55:26" />
+      <departs time="13:55:26" />
+      <rte dist="231631" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-45" >
+      <arrives time="17:07:23" />
+      <departs time="18:07:23" />
+      <rte dist="301244" >
+      </rte >
+    </waypoint >
+  </route >
+  <route vehicle="veh-25676041" dist="125618" >
+    <terminal start="home-houston-tx-77029" final="home-houston-tx-77029" >
+      <arrives time="13:27:47" />
+      <departs time="09:00" />
+      <rte dist="30998" >
+      </rte >
+    </terminal >
+    <waypoint order="ip-25676041" >
+      <arrives time="09:00" />
+      <departs time="09:00:01" />
+      <rte dist="0" >
+      </rte >
+    </waypoint >
+    <waypoint order="id-25676041" >
+      <arrives time="09:35:57" />
+      <departs time="10:05:57" />
+      <rte dist="36408" >
+      </rte >
+    </waypoint >
+    <waypoint order="ep-264" >
+      <arrives time="10:36:37" />
+      <departs time="11:36:37" />
+      <rte dist="26989" >
+      </rte >
+    </waypoint >
+    <waypoint order="ed-264" >
+      <arrives time="11:57:31" />
+      <departs time="12:57:31" />
+      <rte dist="31223" >
+      </rte >
+    </waypoint >
+  </route >
+</solution >

@@ -1,0 +1,28 @@
+nearest neighbors number = 4
+
+max basic opt try num    = 5
+max basic opt sub try num = 4
+max basic try seconds    = 180
+
+max global opt try num = 5
+max global try seconds = 1800
+
+include first rout = 1
+include last road = 1
+
+opt by time = 0
+opt by dist = 0
+opt by local cost = 1
+opt by extern tarifs = 0
+
+Basic Algoritms = 1
+Basic Additional Algoritms = 0
+Try Shake = 0
+Global Serch = 0
+
+LeftRightSideDrive = 1
+StrongRestrict = 1
+UseRoadDiff = 1
+ScaleDist = 10
+ScaleTime = 10
+
