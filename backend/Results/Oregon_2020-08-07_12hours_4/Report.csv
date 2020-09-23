@@ -1,0 +1,4 @@
+Vehicle,ShipmentId,Backhaul Origin,Backhaul Destination,,MatchId,ShipperName,ShipperContact,Match Origin,Match Destination,Inc. miles,Inc. Minutes,Benefit
+"veh-25702196","25702196","PORTLAND, OR","PENDLETON, OR","","1575231356","Client A","702-985-2254","Hermiston, OR","Portland, OR","15.037841599662","152","607.196680245732"
+"veh-25702196","25702196","PORTLAND, OR","PENDLETON, OR","","1568164068","EVERGREE","509-321-4382","kennewick, wa","portland, or","64.6035020567438","212","303.949200906376"
+"veh-25705309","25705309","MILWAUKIE, OR","RENTON, WA","","1548734101","LANDSTAR","832-303-6234","Tacoma, WA","Portland, OR","38.2920948960443","257","370.176661356001"
