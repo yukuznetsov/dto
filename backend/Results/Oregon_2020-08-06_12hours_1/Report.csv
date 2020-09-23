@@ -1,0 +1,4 @@
+Vehicle,ShipmentId,Backhaul Origin,Backhaul Destination,,MatchId,ShipperName,ShipperContact,Match Origin,Match Destination,Inc. miles,Inc. Minutes,Benefit
+"veh-25698013","25698013","MILWAUKIE, OR","PORTLAND (AB), OR","","1575231356","Client A","702-985-2254","Hermiston, OR","Portland, OR","355.509090683137","499","91.1619396605648"
+"veh-25698013","25698013","MILWAUKIE, OR","PORTLAND (AB), OR","","1580477324","AAA LOGI","561-249-4680","lyle, wa","rainier, or","224.709508245616","489","73.7987802701728"
+"veh-25698011","25698011","MILWAUKIE, OR","PORTLAND (MALETIS, OR","","1562783023","PDX FREI","503-303-0400","salem, or","puyallup, wa","366.35142356494","576","78.0093201933712"
