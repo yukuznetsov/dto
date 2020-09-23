@@ -1,43 +1,41 @@
+The repository is 
+https://github.com/datamonsters/abi_dto
 
-Folders:
+Folders are:
+E-Tables: two base spreadsheets and related Visual Basic scripts.
+E-Table_Examples: example of the two base spreadsheets used in solving problem for Houston, 30 June.
+MySqlScripts: MySql script for creating and uploading tables along with a few stored procedures. Incomplete. First attempt.
+MySqlTables: csv-content, referencable and task-related, for the MySql tables.
+PerlScripts: perl scripts.
+Results: computation results. 
+ShellScripts: bash scripts.
 
-E-Table_Examples: examples of the two basic spreadsheets with data related to June, 30, Houston.
-E-Tables: two main spreadsheets and Visual Basic scripts used for macros.
-MySqlScripts: MySql scripts for creating, uploading tables and a few Stored Procedures designed to manipulate the data. Unfinished, first attempt.
-MySqlTables: MySql tables.
-PerlScripts: perl scripts used.
-ShellScripts: bash scripts used.
+Files are:
+Inventory.txt: this one.
+Concerning_DTO_project.docx: a detailed description of possible DTO problems with solving techniques.
 
-
-Main Algorithm.
-Given Backhaul and Truckstop requests, we solve Assignment problem for the first step.
-Next, we discard matchings obtained and solve the Assignment problem again.
-A few steps like this may be performed.
-Eventualy, a few (2-5) matchings result.
-
-
-Inventory.
-1. MySql local database was intended to convert data from input tables to the RAST input files and convert the RAST output to Report, AirTable frontend, etc.
-It was not finished due to lack of time. LibreOffice e-tables was used instead.
-2. There are two main LibreOffice spreadsheets: 
+Description.
+1. E-Table_Examples.
+  The files presenting a workflow.
+2. E-Tables.
+  There are two basic spreadsheets:
   spread_input_empty.xlsx
   universal_out_empty.xlsx
-The first one transforms Backhaul and Truckstop tables to the RAST input files, namely, csv-task and config file.
-The second one transforms the RAST output files, namely, 5 XML schedules to csv-output, AirTable frontend or a simple report.
-3. Perl scripts are used to process output RAST data.
-4. proc_assign.sh shell scripts manages the Main Algorithm at local server. Other shell scripts are simple tools to merge/clear csv-data.
-5. An Example of data processing is given in Table_Examples folder.
+  The first transforms backhaul and truckstop data to a RAST GVRP condition, namely, csv and config files.
+  The second transforms solution obtained with RAST as a set of XML files into a csv Report and csv Airtable frontend data. 
+3. MySqlScripts, MySqlTables.
+  A MySql database was intended to automate data processing. The target was a conversion betweed an input/output data and RAST GVRP task/solution respectively.
+  No final version was obtained due to lack of time. Instead, LibreOffice spreadsheets is used.
+4. PerlScripts.
+  Perl scripts are used for processing RAST solutions.
+5. Results.
+  The Truckstops.csv and Backhauls.csv files contain input data. All the other files are computational results.
+  Report.csv, Summary.csv, AitTable* are report, statistic and AirTable frontend csv-tables respectively.
+6. ShellScripts.
+  proc_assign.sh script manages the main algorithm workflow. All the other is a simple kit to merge and cleanse data.
 
-LibreOffice Spredsheets Workflow.
-1. Obtain Truckstop and Backhaul tables. Correct data, if any.
-2. Insert these into spread_input_empty.xlsx using the same name sheets. Recalculate it.
-3. Save all its sheets as ';'-separated csv files with VB script.
-4. Clean the data and merge into RAST task and config files.
-5. Solve the problem with proc_assign.sh shell script.
-6. Given Truckstops, Backhaules and five Routes tables, populate universal_out_empty.xlsx spreadsheet. Recalculate it.
-7. Save all its sheets as ';'-separated csv files with VB script.
-8. Clean the data and compile csv-output files with simple shell scripts.
-
-
-
+The following is used:
+1. Perl script
+2. Bash script
+3. SQL (MySql)
 
