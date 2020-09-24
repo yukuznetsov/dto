@@ -11,8 +11,9 @@ Results: computation results.
 ShellScripts: bash scripts.
 
 Files are:
-Inventory.txt: this one.
 Concerning_DTO_project.docx: a detailed description of possible DTO problems with solving techniques.
+Inventory.txt: this one.
+Report.txt: progress report.
 
 Description.
 1. E-Table_Examples.
