@@ -1,0 +1,181 @@
+**** RU ****
+
+DTO (в дальнейшем именуемый Заказчиком)
+
+Целью работы являлось решение задач об альтернативных назначениях для Заказчика.
+Задача об альтернативных назначениях состоит в том, чтобы из пула "работ" P = {p_i} выбрать для "работников" W = {w_i} несколько (от 2 до 5)
+наборов альтернативных назначений w_j <-> p_i так, чтобы ни одна назначенная "работа" w_i не встречалась более одного раза во всех предложенных
+назначениях, и при этом упорядочить их по убыванию суммарной "выгоды".
+
+"Работами" в данном случае служили заказы грузоперевозок, предоставленные биржей (сайт https://truckstop.com/).
+"Работниками" -- так называемые бэкхолы, т.е. пустые пробеги транспортных средств Заказчика. 
+Пустые пробеги, как правило, возникают на обратном пути грузовых автомобилей при доставке груза из депо клиенту.
+"Выгода" понималась в прямом смысле этого слова. Она могла быть вычислена в денежном выражении на основании
+информации о длине пробега, времени пробега, стоимостей соответствующих расходов и вознаграждении за выполненную работу.
+В случае отсутствия информации о вознаграждении, его величина вычислялась на основании статистических данных.
+
+Всего было решено 10 задач об альтернативных назначениях: 3 для штата Орегон и 7 для штата Техас.
+Каждая задача определялась датой и локацией депо.
+Данные о бэкхолах были предоставлены Заказчиком.
+Данные о заказах грузоперевозок были взяты из информационного ресурса https://truckstop.com/ либо через WEB-интерфейс, либо 
+с помощью утилиты truckstop_query, работающей с API этого ресурса.
+
+
+Алгоритм.
+Если даны бэкхолы и внешние запросы, мы решаем задачу о назначениях на первом шаге.
+Далее, выбрасываем запросы из решения на предыдущем шаге и решаем новую задачу о назначениях.
+И так далее несколько раз. В результате получаются 2-5 матчей (соответствий).
+
+
+Основным инструментом служил программный комплекс RAST.
+Рабочий цикл выглядел так:
+1. Получение данных из внешних источников.
+2. Восстановление полноты: недостающие величины, геокодирование населенных пунктов.
+3. Приведение к непротиворечивому виду: исправление ошибок, удаление сдвоенных строк.
+4. Генерация условия RAST-задачи на основании двух таблиц - бэкхолов и заказов.
+5. Решение задачи об альтернативных назначениях с помощью RAST.
+6. Генерация выходных файлов на основании решений RAST и исходных данных.
+
+
+Для каждой задачи, для каждого транспортного средства получена следующая информация:
+  идентификатор заказа грузоперевозки,
+  место старта бэкхола,
+  место финиша бэкхола,
+  имя компании, в интересах которой должна быть выполнена доставка,
+  телефон компании, в интересах которой должна быть выполнена доставка,
+  город и штат погрузки,
+  город и штат выгрузки,
+  дополнительные минуты,
+  дополнительные мили,
+  выгода.
+
+Дополнительные минуты и мили, а также выгода расчитываются относительно пустого бэкхола.
+
+Кроме того, для каждого назначения была вычислена общая статистика:
+  суммарные дополнительные минуты
+  суммарные дополнительные мили
+  суммарная выгода
+
+В ряде задач были проведены 2 альтернативных расчета: один с ограничением рабочего времени перевозчика в 12 часов, второй - в 20 часов.
+
+Решение каждой задачи представлено в двух видах:
+  простой csv-файл отчета
+  csv-файл исходных данных для web-интерфейса airtable.
+  
+В airtable фронтэнде, помимо перечисленных выше данных, также отображалось:
+  географические координаты локаций,
+  времена погрузок и выгрузок как собственного груза, так и груза биржи,
+  тип транспортного средства, 
+  радиус удаления от базового депо,
+  общее время,
+  расходы.
+  
+
+В процессе работы использовалось:
+1. RASTXOPT
+2. утилита truckstop_query
+2. LibreOffice calculator
+3. скрипты, написанные на Perl
+4. скрипты, написанные на bash
+
+
+Решение задач с помощью RAST включало в себя маршрутизацию. Последняя осуществлялась с помощью карт местности,
+построенных на основе данных из открытого источника Open Street Map (https://www.openstreetmap.org/).
+
+Утилита truckstop_query разработана и написана на языке C++ Д. Еремичем.
+
+Вспомогательные скрипты Perl и bash написаны Ю. Кузнецовым.
+
+Web интерфейс airtable является сторонней разработкой.
+
+
+**** EN ****
+
+DTO (hereinafter referred to as the Customer)
+
+The purpose of the work was to solve problems of alternative assignments for the Customer.
+A problem of alternative assignments is to assign several (from 2 to 5) sets of "jobs" from the pool P = {p_i} 
+to "workers" W = {w_i} w_j <-> p_i so that no assigned "work" w_i occurs more than once in all proposed
+assignments, and at the same to order them descending regarding to the total "benefit".
+
+"Works" in this case were freight orders provided by the truckstops (site https://truckstop.com/).
+"Workers" are backholes, i.e. empty runs of the Customer's vehicles.
+Empty runs occur as trucks' return journeys after goods are delivered to clients.
+"Benefit" is understood literally. It could be calculated in monetary terms based on
+information about the length of a run, the run time, values ​​of the corresponding expenses and rewards.
+In the absence of reward value, it is calculated based on statistical data.
+
+A total of 10 alternative assignment problems were solved: 3 for Oregon and 7 for Texas.
+Each task was determined by the date and location of the depot.
+Backhole data was provided by the Customer.
+Truckstop data was taken from the information resource https://truckstop.com/ either through the web interface, or
+with truckstop_query utility working through the resource's API.
+
+
+Algorithm.
+Given backhaules and trucfkstop requests, we solve a classical assignment problem in the first step.
+Next, we discard the truckstop requests obtained at the step one and solve a new assignment problem.
+And so on. The result is 2-5 matches.
+
+
+The main tool was the RAST software package.
+The work cycle is:
+1. Obtaining data from external sources.
+2. Restoration of completeness: replace missed values, geocode locations.
+3. Consistency: correct errors, remove double lines.
+4. Generation of a RAST problem condition based on two tables - backhauls and truckstops.
+5. Solving the alternative assignments problem using RAST.
+6. Generation of output files based on RAST solution and the initial data.
+
+
+For each task, for each vehicle, the following information was obtained:
+  trucking order ID,
+  backhaul start location,
+  backhaul finish location,
+  the name of a company that the delivery is performed on behalf of,
+  the telephone of a company that the delivery is performed on behalf of,
+  city ​​and state of loading,
+  city ​​and state of unloading,
+  extra minutes,
+  extra miles,
+  benefit.
+
+Extra minutes and miles, as well as the benefit, are calculated relative to an empty backhaul.
+
+In addition, general statistic was calculated for each assignment:
+  total extra minutes
+  total additional miles
+  total benefit
+
+In some tasks, alternative calculations were carried out: for 12 hours and 20 hours working day.
+
+Each problem has a solution presented as:
+1. simple csv report file
+2. csv files for the airtable web interface.
+  
+The airtable frontend, in addition to the above data, also displayed:
+  geographical coordinates of locations,
+  loading and unloading times both for the proper and extra cargoes,
+  vehicle type,
+  travel radius based at the depot,
+  total time,
+  expenses.
+  
+
+We used:
+1. RASTXOPT
+2. truckstop_query utility
+2. LibreOffice calculator
+3. Perl scripts
+4. bash scripts
+
+
+RAST uses routing data. This data is prepared with the Open Street Map (https://www.openstreetmap.org/) resource.
+
+The truckstop_query C++ utility was developed by D. Eremich.
+
+Perl and bash scripts are due to Yu. Kuznetsov.
+
+The airtable web interface is a third party.
+
+
