@@ -9,6 +9,7 @@ MySqlTables: csv-content, referencable and task-related, for the MySql tables.
 PerlScripts: perl scripts.
 Results: computation results. 
 ShellScripts: bash scripts.
+TruckStop: C++ truckstop query utility.
 
 Files are:
 Concerning_DTO_project.docx: a detailed description of possible DTO problems with solving techniques.
@@ -34,6 +35,8 @@ Description.
   Report.csv, Summary.csv, AitTable* are report, statistic and AirTable frontend csv-tables respectively.
 6. ShellScripts.
   proc_assign.sh script manages the main algorithm workflow. All the other is a simple kit to merge and cleanse data.
+7. TruckStop.
+  A C++ utility quering data from the Truckstop resource with a configuration and filters predefined. /D. Eremich/
 
 The following is used:
 1. Perl script
