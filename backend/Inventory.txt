@@ -15,6 +15,7 @@ Files are:
 Concerning_DTO_project.docx: a detailed description of possible DTO problems with solving techniques.
 Inventory.txt: this one.
 Report.txt: progress report.
+Summary.txt: work results and further development drafts.
 
 Description.
 1. E-Table_Examples.
